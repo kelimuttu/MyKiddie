@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+        android:id="@+id/action_tambah_jadwal"
+        android:title="@string/action_tambah_jadwal"
+        android:icon="@drawable/ic_action_new"
+        android:showAsAction="ifRoom|withText"
+    />
+    
+    <item
+        android:id="@+id/tentang"
+        android:title="@string/tentang"
+        android:icon="@drawable/ic_action_about"
+        android:showAsAction="never"
+    />
+     
+</menu>

@@ -1,0 +1,136 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Tips9"
+    android:orientation="vertical">
+
+   <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/JudulTips"
+            android:text="@string/title_activity_tips9"/>
+
+        <ImageView
+	        android:id="@+id/imageView1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:src="@drawable/lines" 
+	        android:paddingBottom="10dp"/>
+        
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="188dp"
+            android:src="@drawable/tips_pic9"
+            android:padding="5dp" />
+    	
+    	<TextView
+    	    style="@style/emphasize"
+    	    android:text="@string/Content9Line1"/>
+    	
+    	<TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Content9Line2"/>
+    	
+    	<TextView
+    	    android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+    	    android:text="@string/Content9Line3"/>
+    	
+    	<TextView
+    	    style="@style/emphasize"
+    	    android:text="@string/Content9Line4"/>
+    	
+    	<TextView
+    	    android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+    	    android:text="@string/Content9Line5"/>
+    	
+    	<TextView
+    	    style="@style/emphasize"
+    	    android:text="@string/Content9Line6"/>
+    	
+    	<TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Content9Line7"/>
+    	
+    	<TextView
+    	    style="@style/emphasize"
+    	    android:text="@string/Content9Line8"/>
+    	
+    	<TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Content9Line9"/>
+    	
+    	<TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Content9Line10"/>
+    	
+    	<TextView
+    	    style="@style/emphasize"
+    	    android:text="@string/Content9Line11"/>
+    	
+    	<TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Content9Line12"/>
+    	
+    	<TextView
+    	    style="@style/emphasize"
+    	    android:text="@string/Content9Line13"/>
+    	
+    	<TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Content9Line14"/>
+    	
+    	<TextView
+    	    style="@style/emphasize"
+    	    android:text="@string/Content9Line15"/>
+    	
+    	<TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Content9Line16"/>
+    	
+    	<TextView
+    	    style="@style/emphasize"
+    	    android:text="@string/Content9Line17"/>
+    	
+    	<TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Content9Line18"/>
+    	
+    	<TextView
+    	    style="@style/emphasize"
+    	    android:text="@string/Content9Line19"/>
+    	
+    	<TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Content9Line20"/>
+    	
+    	<TextView
+    	    style="@style/emphasize"
+    	    android:text="@string/Content9Line21"/>
+    	
+    	<TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Content9Line22"/>
+    	
+    </LinearLayout>
+
+</ScrollView>

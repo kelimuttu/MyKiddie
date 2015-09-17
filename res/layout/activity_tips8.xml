@@ -1,0 +1,78 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Tips8"
+    android:orientation="vertical" >
+
+   <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            style="@style/JudulTips"
+            android:text="@string/title_activity_tips8" />
+
+        <ImageView
+	        android:id="@+id/imageView1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:src="@drawable/lines" 
+	        android:paddingBottom="10dp"/>
+        
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="188dp"
+            android:src="@drawable/tips_pic8"
+            android:padding="5dp" />
+    	
+    	<TextView
+    	    style="@style/emphasize"
+    	    android:text="@string/Content8Line1"/>
+    	
+    	<TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Content8Line2"/>
+    	
+    	<TextView
+    	    android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+    	    android:text="@string/Content8Line3"/>
+    	
+    	<TextView
+    	    style="@style/emphasize"
+    	    android:text="@string/Content8Line4"/>
+    	
+    	<TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Content8Line5"/>
+    	
+    	<TextView
+    	    android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+    	    android:text="@string/Content8Line6"/>
+    	
+    	<TextView
+    	    style="@style/emphasize"
+    	    android:text="@string/Content8Line7"/>
+    	
+    	<TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Content8Line8"/>
+    	
+    	<TextView
+    	    android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+    	    android:text="@string/Content8Line9"/>
+    	
+    </LinearLayout>
+
+</ScrollView>

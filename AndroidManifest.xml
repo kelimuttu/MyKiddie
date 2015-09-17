@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="femaledev.mykiddie"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher2"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.Mykiddie" >
+
+        <!-- Splash screen -->
+        <activity
+            android:name="femaledev.mykiddie.SplashScreen"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="femaledev.mykiddie.Beranda"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="femaledev.mykiddie.TambahJadwal"
+            android:label="@string/title_activity_tambah_jadwal" 
+            android:parentActivityName="femaledev.mykiddie.DetailJadwal" >
+        </activity>
+        <activity
+            android:name="femaledev.mykiddie.Tentang"
+            android:label="@string/app_name"
+            android:parentActivityName="femaledev.mykiddie.Beranda" >
+
+            <!-- Parent activity meta-data to support API level 7+ -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="femaledev.mykiddie.Beranda" />
+        </activity>
+        <activity
+            android:name="femaledev.mykiddie.DetailJadwal"
+            android:label="@string/title_activity_detail_jadwal" 
+            android:parentActivityName="femaledev.mykiddie.Beranda" >
+        </activity>
+        <activity
+            android:name="femaledev.mykiddie.Tips1"
+            android:label="@string/app_name" 
+            android:parentActivityName="femaledev.mykiddie.Kategori1" >
+        </activity>
+        <activity
+            android:name="femaledev.mykiddie.Tips2"
+            android:label="@string/app_name"
+            android:parentActivityName="femaledev.mykiddie.Kategori2" >
+        </activity>
+        <activity
+            android:name="femaledev.mykiddie.Tips3"
+            android:label="@string/app_name"
+            android:parentActivityName="femaledev.mykiddie.Kategori2" >
+        </activity>
+        <activity
+            android:name="femaledev.mykiddie.Tips4"
+            android:label="@string/app_name"
+            android:parentActivityName="femaledev.mykiddie.Kategori1" >
+        </activity>
+        <activity
+            android:name="femaledev.mykiddie.Tips5"
+            android:label="@string/app_name"
+            android:parentActivityName="femaledev.mykiddie.Kategori3" >
+        </activity>
+        <activity
+            android:name="femaledev.mykiddie.Tips6"
+            android:label="@string/title_activity_tips6"
+            android:parentActivityName="femaledev.mykiddie.Kategori3" >
+        </activity>
+        <activity
+            android:name="femaledev.mykiddie.Tips7"
+            android:label="@string/title_activity_tips7" 
+            android:parentActivityName="femaledev.mykiddie.Kategori2" >
+        </activity>
+        <activity
+            android:name="femaledev.mykiddie.Tips8"
+            android:label="@string/title_activity_tips8"
+            android:parentActivityName="femaledev.mykiddie.Kategori2" >
+        </activity>
+        <activity
+            android:name="femaledev.mykiddie.Tips9"
+            android:label="@string/title_activity_tips9"
+            android:parentActivityName="femaledev.mykiddie.Kategori3" >
+        </activity>
+        <activity
+            android:name="femaledev.mykiddie.Kategori1"
+            android:label="@string/title_activity_kategori1"
+            android:parentActivityName="femaledev.mykiddie.Beranda" >
+        </activity>
+        <activity
+            android:name="femaledev.mykiddie.Kategori2"
+            android:label="@string/title_activity_kategori2"
+            android:parentActivityName="femaledev.mykiddie.Beranda" >
+        </activity>
+        <activity
+            android:name="femaledev.mykiddie.Kategori3"
+            android:label="@string/title_activity_kategori3"
+            android:parentActivityName="femaledev.mykiddie.Beranda" >
+        </activity>
+        <activity
+            android:name="femaledev.mykiddie.TambahJadwal2"
+            android:label="@string/title_activity_tambah_jadwal2" 
+			android:parentActivityName="femaledev.mykiddie.DetailJadwal2" >
+        </activity>
+        <activity
+            android:name="femaledev.mykiddie.DetailJadwal2"
+            android:label="@string/title_activity_detail_jadwal2" 
+            android:parentActivityName="femaledev.mykiddie.Beranda" >
+        </activity>
+    </application>
+
+</manifest>
